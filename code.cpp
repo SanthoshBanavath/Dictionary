@@ -90,10 +90,10 @@ void Print(){
 }
 
 void print(vector<string> remWords){
-	if(remWords.size()==0){
-		cout<<"\n....No words Found.....\n";
-		return;
-	}
+	//if(remWords.size()==0){
+	//	cout<<"\n....No words Found.....\n";
+	//	return;
+	//}
 	for(int i=0;i<remWords.size();i++){
 		cout<<remWords[i]<<"\n";
 	}
